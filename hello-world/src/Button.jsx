@@ -1,3 +1,3 @@
 export const Button = () => {
-  return <button>Click Me</button>
+  return <button className="primary-button">Click Me</button>
 }
