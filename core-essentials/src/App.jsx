@@ -5,11 +5,14 @@ import { Curly } from './Curly'
 import { Props } from './Props'
 import { Product } from './Product'
 import { UserDetails } from './UserDetails'
+import { ProductList } from './ProductList'
 
 function App() {
   return (
     <>
       <h1> React Essentials </h1>
+      <ProductList/>
+
       <UserDetails name="Peter" isOnline={true} status={"New User"}/>
       <UserDetails name="Patrick" isOnline={false} status={"New User"}/>
 
