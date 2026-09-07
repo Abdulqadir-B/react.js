@@ -17,6 +17,13 @@
   }
 }
 
+hr {
+  width: 100%;
+  border: 0;
+  border-top: 4px solid #555;
+  margin: 20px 0;
+}
+
 .primary-button {
   align-self: center;
   width: fit-content;

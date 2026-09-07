@@ -8,12 +8,14 @@ export const ProductList = () => {
   return (
     <>
       <h2>Product Catalogue</h2>
-      {products.map((product) => (
-        <div key={product.id}>
-          <h3>Title: {product.title}</h3>
-          <p>Price: {product.price}</p>
-        </div>
-      ))}
+      {products.map((product) => {
+        return (
+          <div key={product.id}>
+            <h3>Title: {product.title}</h3>
+            <p>Price: {product.price}</p>
+          </div>
+        );
+      })}
     </>
   );
 };
