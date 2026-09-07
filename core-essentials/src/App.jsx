@@ -4,11 +4,15 @@ import {Button} from './Button'
 import { Curly } from './Curly'
 import { Props } from './Props'
 import { Product } from './Product'
+import { UserDetails } from './UserDetails'
 
 function App() {
   return (
     <>
       <h1> React Essentials </h1>
+      <UserDetails name="Peter" isOnline={true} status={"New User"}/>
+      <UserDetails name="Patrick" isOnline={false} status={"New User"}/>
+
       <Props name="Max" age = "21" />
       <Props name="John" />
       <Props name="Alex" />
