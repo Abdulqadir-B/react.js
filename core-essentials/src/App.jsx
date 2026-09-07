@@ -7,11 +7,14 @@ import { Product } from './Product'
 import { UserDetails } from './UserDetails'
 import { ProductList } from './ProductList'
 import { Alert } from './Alert'
+import { Events } from './Events'
 
 function App() {
   return (
     <>
       <h1> React Essentials </h1>
+      <hr />
+      <Events text="Contact" />
       <hr />
       <Alert title="Your changes are saved." type="success" />
       <Alert title="Something went wrong." type="error" />
