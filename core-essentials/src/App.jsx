@@ -6,11 +6,15 @@ import { Props } from './Props'
 import { Product } from './Product'
 import { UserDetails } from './UserDetails'
 import { ProductList } from './ProductList'
+import { Alert } from './Alert'
 
 function App() {
   return (
     <>
       <h1> React Essentials </h1>
+      <hr />
+      <Alert title="Your changes are saved." type="success" />
+      <Alert title="Something went wrong." type="error" />
       <hr />
       <ProductList/>
       <hr />

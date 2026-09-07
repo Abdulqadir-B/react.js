@@ -1,0 +1,22 @@
+/* use filename.module.css as the name of css files to make sure they dont conflict global styles */
+
+.alert,
+.alert-green,
+.alert-red {
+    color: white;
+    padding: 8px 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+    width: 30%;
+    align-self: center;
+}
+
+.alert-green {
+    background-color: rgb(43, 163, 43);
+}
+
+.alert-red {
+    background-color: rgb(204, 49, 49);
+}
+
