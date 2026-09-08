@@ -1,4 +1,5 @@
 import { Count } from "./Count"
+import { Login } from "./Login"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
      <h1>Dive into states</h1>
      <Count/>
+     <Login/>
     </>
   )
 }
