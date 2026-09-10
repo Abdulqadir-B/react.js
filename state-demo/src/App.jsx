@@ -2,7 +2,8 @@
 // import { Login } from "./Login"
 //import { TodoList } from "./TodoList"
 //import { UserProfile } from "./UserProfile"
-import { CounterWithUseReducer } from "./CounterWithUseReducer";
+// import { CounterWithUseReducer } from "./CounterWithUseReducer";
+import { CounterWithInit } from "./CounterWithInit"
 
 function App() {
 
@@ -12,8 +13,10 @@ function App() {
      {/* <Count/>
      <Login/>
      <UserProfile/> 
-     <TodoList/>*/}
-     < CounterWithUseReducer/>
+     <TodoList/>
+     < CounterWithUseReducer/> */}
+	 <CounterWithInit/>
+	
     </>
   )
 }
