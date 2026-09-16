@@ -1,0 +1,31 @@
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+header {
+  border-bottom: 1px solid #d9dee7;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  margin: 0 0 16px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  color: #175cd3;
+}
+
+section {
+  background: #f4f7fb;
+  border: 1px solid #d9dee7;
+  border-radius: 8px;
+  padding: 24px;
+}
